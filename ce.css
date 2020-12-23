@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(152, 152, 185);
+}
+
+#one {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 40px;
+    text-decoration: underline;
+    color: rebeccapurple;
+}
+
+#two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 80%;
+    max-height: 40%;
+    margin: 0 auto;
+}
+
+#tsl1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 12px;
+    margin: 20px 10px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px 2px black;
+    width: 45%;
+    height: 40%;
+    text-align: center;
+    background-image: url("gl.jpeg");
+}
+
+#time1 {
+    color: red;
+}
+
+#station1 {
+    color: purple;
+}
+
+#land1 {
+    color: green;
+}
